@@ -3,7 +3,7 @@ title: HelloMin Blog
 SEOTitle: HelloMin的博客 | HelloMin Blog
 header-img: img/post-bg-coffee.jpeg
 email: minzheng007@gmail.com
-#description: "享受当下，悦纳自我."
+description: "享受当下，悦纳自我."
 keyword: "HelloMin, HelloMin Blog, HelloMin的博客, zhengmin, 郑敏, iOS, Android, ReactNative"
 url: "http://hellomin.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -39,7 +39,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# plugins: [jekyll-paginate]
 
 
 
