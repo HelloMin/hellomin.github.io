@@ -1,7 +1,16 @@
 ---
-layout: post
-title: React Native编写预设样式的按钮
+layout:     post
+title:      React Native编写预设样式的按钮
+subtitle:   React Native编写预设样式的按钮
+date:       2018-04-13
+author:     HelloMin
+header-img: img/post-bg-debug.png
+catalog: true
+tags:
+    - React Native
+    - 按钮
 ---
+
 导语：
   > 按钮在应用开发中应该是很常见的了。本文主要总结了如何从开发一个简单的预设了固定样式的按钮，到开发一个预设了多个可选择的样式的按钮。文中的代码有部分省略，全部代码可以在[我的Github代码库](https://github.com/HelloMin/ReactNativeDemoLib)找到。
 
