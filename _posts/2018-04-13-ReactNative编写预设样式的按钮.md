@@ -1,14 +1,14 @@
 ---
 layout:     post
 title:      React Native编写预设样式的按钮
-subtitle:   React Native编写预设样式的按钮
+subtitle:   
 date:       2018-04-13
 author:     HelloMin
 header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - React Native
-    - 按钮
+    - 控件
 ---
 
 导语：
@@ -195,6 +195,9 @@ const styles = StyleSheet.create({
   dark
 </MyButton>
 ```
+上面代码的效果如下:
+<img src="/img/post_img/default-type-button.png" alt="四种预定义样式的按钮" width="250px" border="1"/>
+
 如果你不希望其他的开发者在使用你的按钮的时候，传一些不是你预设样式名字的type值进来，可以在代码中对type的取值进行一定的限制。
 
 ```js
