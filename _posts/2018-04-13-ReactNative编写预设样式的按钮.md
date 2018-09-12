@@ -4,7 +4,7 @@ title:      React Native编写预设样式的按钮
 subtitle:   
 date:       2018-04-13
 author:     HelloMin
-header-img: img/post-bg-debug.png
+header-img: img/post-bg-ios10.png
 catalog: true
 tags:
     - React Native
