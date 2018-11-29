@@ -91,7 +91,11 @@ while (k = rq.remove() != null) { // rq有内容
 | 虚引用 | Unknown | Unknown | Unknown |
 
 Refs:
+
 [android中handler使用WeakReference防止内存泄露](https://blog.csdn.net/lanximu/article/details/40522367)
+
 [理解Java中的弱引用](https://www.cnblogs.com/absfree/p/5555687.html)
+
 [ReferenceQueue的使用](https://www.jianshu.com/p/73260a46291c)
+
 [强引用、弱引用、软引用、虚引用](https://www.jianshu.com/p/1fc5d1cbb2d4)
