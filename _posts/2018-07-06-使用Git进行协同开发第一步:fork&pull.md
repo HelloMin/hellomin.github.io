@@ -7,8 +7,8 @@ author:     HelloMin
 header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
-    - git
-    - 工具
+    - Git
+    - Tool
 ---
 ## 找到你想要参与的项目，fork这个项目，从而得到一个线上的你自己的项目。
 
