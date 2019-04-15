@@ -99,7 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "marsishandsome-云计算",
+        title: "marsishandsome-PingCAP",
         href: "https://marsishandsome.github.io/"
     }
 ]
