@@ -33,3 +33,9 @@ Temporary Items
 
 # debug file
 _site
+
+# gitignore
+.gitignore
+
+# drafts
+_drafts
