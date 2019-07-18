@@ -37,8 +37,5 @@ _site
 # gitignore
 .gitignore
 
-# drafts
-_drafts
-
 #windows
 .idea
