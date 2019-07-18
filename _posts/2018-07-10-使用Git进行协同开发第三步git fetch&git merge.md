@@ -2,7 +2,7 @@
 layout:     post
 title:      使用Git进行协同开发第三步:git fetch & git merge
 subtitle:   
-date:       2018-07-10
+date:       2018-07-10g
 author:     HelloMin
 header-img: img/post-bg-rwd.jpg
 catalog: true
