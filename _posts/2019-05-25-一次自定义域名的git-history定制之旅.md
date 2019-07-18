@@ -19,7 +19,7 @@ tags:
 
 git-history就是为文件的改变提供最直观查看方式的工具。使用也足够简单：以一个github文件为例，你只需要把该文件的url域名做一些更改，就可以在网页上像翻书一样的查看文件的每一次变动，看下面的动画，多么愉快的体验～
 
-<img src="/img/post_img/githistory-show.gif" alt="git-history" width="400px"/>
+<img src="/img/post_img/githistory-show.gif" alt="git-history"/>
 
 很酷有没有！
 
@@ -49,7 +49,7 @@ Chrome为我们这种问题少年提供了强有力的支持：在网页上右�
 
 以github页面为例：
 
-<img src="/img/post_img/githistory-net.png" alt="git-history network" width="400px"/>
+<img src="/img/post_img/github-net.png" alt="git-history network"/>
 
 可以看到，最重要的两个请求分别是：
 
@@ -91,7 +91,7 @@ https://docs.gitlab.com/ee/api/
 
 ## 我需要做的
 
-### 第0步：运行本地服务器，进行代码调试
+#### 第0步：运行本地服务器，进行代码调试
 
 首先，我很高兴地发现，git-history的开发人员，提供了一个本地命令行运行的方式，可以对本地文件进行类似的历史展示：
 
@@ -123,9 +123,11 @@ http://gitlab.localhost:3000/blueyi/tensorflow_mirror/blob/master/README.md
 
 http://gitlab.xxx.domain.localhost:3000/hellomin/gitlabAPITest/blob/master/README.md
 
+<img src="/img/post_img/git-fail.png" alt="github-commit.png"/>
+
 好吧，还是一步一步看，我到底跪在哪了？
 
-### 第一步：访问网站时，能发出正确的请求去拉取commit和文件
+#### 第一步：访问网站时，能发出正确的请求去拉取commit和文件
 
 通过之前讲过的，查看Chrome网络的方式，我的服务器发出的拉取commit历史的请求如下：
 
@@ -167,7 +169,7 @@ http://gitlab.xxx.domain/api/v4/projects/hellomin%2FgitlabAPITest/repository/com
 
 到这里基本大功告成，还有一些需要添加我司域名的地方，就不一一赘述了。说来也简单，只需要在项目里全局搜一下SOURCE.GITLAB，看它都在哪用过了，基本它怎么加你怎么加，就好了～
 
-### 第二步：正确的请求可以收到正确的回应
+#### 第二步：正确的请求可以收到正确的回应
 
 请求发出去了，没毛病，可我还是没办法看到想看的页面！好生气！
 
@@ -179,11 +181,11 @@ http://gitlab.xxx.domain/api/v4/projects/hellomin%2FgitlabAPITest/repository/com
 
 这是Mars的github项目下的一个readme文件，运行完美！
 
-<img src="/img/post_img/githistory-mars.png" alt="githistory-cli.png"/>
+<img src="/img/post_img/githistory-mars.gif" alt="githistory-cli.png"/>
 
 再看看我在我司gitlab上专门为了测试建的一个文件：
 
-<img src="/img/post_img/githistory-test.png" alt="githistory-cli.png"/>
+<img src="/img/post_img/githistory-test.gif" alt="githistory-cli.png"/>
 
 出来了！终于出来了啊啊啊啊啊啊啊啊啊～～～
 
