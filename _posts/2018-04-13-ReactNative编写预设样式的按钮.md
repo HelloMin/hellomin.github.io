@@ -7,7 +7,7 @@ author:     HelloMin
 header-img: img/post-bg-ios10.jpg
 catalog: true
 tags:
-    - React Native
+    - Tool
 ---
 
 导语：

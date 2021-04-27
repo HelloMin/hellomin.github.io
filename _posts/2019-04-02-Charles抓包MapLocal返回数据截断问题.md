@@ -8,7 +8,6 @@ header-img: img/post-bg-lemon.jpg
 catalog: true
 tags:
     - Tool
-    - Charles
 ---
 
 > Charles也算是前端开发必备工具了，用于模拟各种返回数据，抓包，都很方便。但昨天，我被Charles的一个小问题折腾了一天，最后发现果然不是什么大问题，记录一下，按照我搜索的关键词为本文命名，以防有其他人和我一样用这几个关键词组合搜不到结果。

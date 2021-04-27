@@ -8,7 +8,6 @@ header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
     - Git
-    - Tool
 ---
 ### git fetch
 #### 使用场景：

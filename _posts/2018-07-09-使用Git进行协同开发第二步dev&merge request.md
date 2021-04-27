@@ -8,7 +8,6 @@ header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
     - Git
-    - Tool
 ---
 ok，现在我本地有一个master分支，follow远端的我的master分支。可是由于项目开发时间还没到，我fork的源项目的master分支暂时还是上一个版本的开发分支，管理人员在源项目下新建了一个dev-9.7.5分支，用于下一个版本的代码上传，因此，我需要follow这个dev-9.7.5分支，在此基础上编写代码并提交一个merge request！
 
